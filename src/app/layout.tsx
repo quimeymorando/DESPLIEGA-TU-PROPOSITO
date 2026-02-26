@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
+import MetaPixel from "@/components/MetaPixel";
 
 const inter = Inter({
   variable: "--font-sans",
@@ -29,6 +30,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${playfair.variable} antialiased font-sans text-celestial-deep bg-celestial-deep`}
       >
+        <MetaPixel />
         {children}
       </body>
     </html>
