@@ -17,16 +17,12 @@ export function EpiphanyStory() {
                 >
                     {/* YouTube VSL Embed */}
                     <div className="absolute inset-0 bg-black">
-                        <iframe
-                            width="100%"
-                            height="100%"
-                            src="https://www.youtube.com/embed/-2nvDuOu5zs?rel=0&modestbranding=1&controls=1"
+                        <video
+                            src="https://assets.cdn.filesafe.space/uuaiNCJCRvymWQ2ejuex/media/69ac35797bdf385cf6c50eb8.mp4"
                             title="Despliega tu Propósito VSL"
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen
+                            controls
                             className="w-full h-full object-cover"
-                        ></iframe>
+                        />
                     </div>
                 </motion.div>
 
